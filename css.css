@@ -1,0 +1,43 @@
+.areaInput {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 1em;
+}
+#bloco {
+  background-color: #090e22;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 1.5em;
+}
+#area {
+  display: flex;
+  justify-content: center;
+}
+button {
+  height: 3em;
+  width: 100%;
+  background-color: orange;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+body {
+  background-color: #1d1e33;
+}
+#resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  flex-direction: column;
+}
+#limpar {
+  background-color: #444;
+  margin-top: 10px;
+}
